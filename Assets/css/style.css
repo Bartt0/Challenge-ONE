@@ -1,0 +1,54 @@
+body{
+    background-color: #f3f5fc;
+
+}
+p {
+    font-size: 1.2em; /* Establece el tamaño de fuente en 12px (1.2 * 10px) */
+  }
+
+h4 {
+    font-size: 1.5em; /* Establece el tamaño de fuente en 25px (2.5 * 10px) */
+  }
+
+  button {
+    border-radius: 24px; /* redondea los bordes del botón */
+    font-size: 16px; /* establece el tamaño de fuente en 16px */
+    color: #0A3871; /* establece el color de fuente */
+    border: 1px solid #0A3871; /* establece el color del borde */
+    padding: 24px; /* añade relleno a los lados del texto */
+    background: #D8DFE8;
+    cursor: pointer;
+    transition: all .2s; /* agrega una transición suave al cambio de color de fondo */
+   
+    width: 50%;
+    }
+
+  .boton {
+    display: ;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  button:hover {
+    color: #D8DFE8;
+    background: #0A3871;  /* cambia el color de fondo a azul cuando el cursor pasa por encima */
+  }
+  
+
+#contenedor {
+    max-width: 90%; /* Establece el ancho máximo en 60% del tamaño de la pantalla */
+    margin: 0 auto; /* Centra el contenedor en la pantalla */
+    overflow: hidden;
+  }
+
+.divIzquierda{
+    background-color: #ffffff;
+    float: right;
+    width: 25%;
+}
+.divDerecha{
+    background-color: #ffffff;
+    float: left;
+    width: 75%;
+}
