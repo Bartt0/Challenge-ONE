@@ -1,7 +1,38 @@
-body{
-    background-color: #f3f5fc;
+*{
+  background-color: #f3f5fc;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
 
 }
+
+.logo{
+  padding-top: 10px;
+  margin-left: 10px;
+  width: 10%;
+}
+
+main{
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+
+::placeholder {
+  color: #0A3871;
+}.texto:focus {
+  outline: none;
+}
+
+.texto{
+  border: none;
+  color: #0A3871;
+  margin-top: 90px;
+  text-transform: lowercase; 
+}
+
+
 p {
     font-size: 1.2em; /* Establece el tamaño de fuente en 12px (1.2 * 10px) */
   }
@@ -23,12 +54,7 @@ h4 {
     width: 50%;
     }
 
-  .boton {
-    display: ;
-    flex-direction: column-reverse;
-    justify-content: center;
-    gap: 1rem;
-  }
+ 
 
   button:hover {
     color: #D8DFE8;
